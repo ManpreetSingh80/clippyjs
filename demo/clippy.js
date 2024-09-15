@@ -875,7 +875,7 @@ Agent.prototype.resume = function resume () {
 };
 
 var load = function load (name, successCb, failCb, base_path) {
-    base_path = base_path || window.CLIPPY_CDN || 'https://raw.githubusercontent.com/ManpreetSingh80/clippyjs/master/assets/agents/';
+    base_path = base_path || window.CLIPPY_CDN || 'https://manpreetsingh80.github.io/clippyjs/assets/agents/';
 
     var path = base_path + name;
     var mapDfd = load._loadMap(path);

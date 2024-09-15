@@ -7,7 +7,7 @@ var talks = [
     'At your service',
     'Helloo'
 ]
-// window.CLIPPY_CDN = '../assets/agents/'
+window.CLIPPY_CDN = '../assets/agents/'
 const randPos = () => .2 + Math.random() * .6
 
 function nextAgent () {
