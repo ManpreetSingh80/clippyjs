@@ -7,7 +7,7 @@ var talks = [
     'At your service',
     'Helloo'
 ]
-
+// window.CLIPPY_CDN = '../assets/agents/'
 const randPos = () => .2 + Math.random() * .6
 
 function nextAgent () {
@@ -24,6 +24,7 @@ function nextAgent () {
         move()
 
         agent.show();
+    //    console.log(agentName, 'animations', agent.animations())
 
         // Speak on click and start
         const speak = () => {
